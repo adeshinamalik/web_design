@@ -1,0 +1,192 @@
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+body {
+  background-image: url(image/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+#card {
+  position: relative;
+  left: 50%;
+  /* top: 0%; */
+  transform: translate(-50%, 6.5em);
+  max-width: 28em;
+  border-radius: 32px;
+  overflow: hidden;
+  padding: 0%;
+  background-color: white;
+  box-shadow: 0px 5px 50px -25px hsl(223, 47%, 23%);
+}
+.illus,
+img {
+  padding: 0%;
+  margin: 0%;
+}
+#order_summary {
+  font-family: sans-serif;
+  position: relative;
+  left: 25%;
+  font-weight: 900;
+  font-size: 1.7em;
+}
+#order_content {
+  position: relative;
+  left: 20%;
+  max-width: 18em;
+  color: hsl(224, 23%, 55%);
+}
+.plan {
+  background-color: hsl(225, 100%, 98%); /* hsl(225, 100%, 94%) */
+  border-radius: 1.5em;
+  display: flex;
+  align-items: center;
+  max-width: 20em;
+  position: relative;
+  left: 15%;
+  height: 6.25em;
+  bottom: 10%;
+}
+.music_icon {
+  position: relative;
+  left: 5%;
+}
+
+.plan_year {
+  position: relative;
+  left: 18%;
+}
+
+.change {
+  position: relative;
+  left: 28%;
+}
+.annual_plan {
+  font-weight: 700;
+}
+.year {
+  color: hsl(224, 23%, 55%);
+}
+.payment {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 5%;
+  left: 12%;
+  max-width: 22em;
+  height: 3.2em;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 1em;
+  position: relative;
+  padding-top: 3.5%;
+  padding-left: 23%;
+  box-shadow: 0px 5px 25px -5px hsl(223, 47%, 23%);
+}
+.cancel_order {
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 5%;
+  left: 12%;
+  max-width: 22em;
+  height: 3.2em;
+  /* background-color: hsl(245, 75%, 52%); */
+  color: hsl(224, 23%, 55%);
+  border-radius: 1em;
+  position: relative;
+  /* padding-top: 3.5%; */
+  padding-left: 26%;
+}
+.payment:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: yellow;
+  }
+  #card {
+    position: relative;
+    left: 50%;
+    /* top: 0%; */
+    transform: translate(-50%, 6.5em);
+    max-width: 300px;
+    border-radius: 22px;
+    overflow: hidden;
+    padding: 0%;
+    background-color: white;
+    box-shadow: 0px 5px 50px -25px hsl(223, 47%, 23%);
+  }
+  body {
+    background-image: url(image/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+  }
+  .illus,
+  img {
+    max-width: 320px;
+    padding: 0%;
+    margin: 0%;
+  }
+  #order_summary {
+    font-family: sans-serif;
+    position: relative;
+    left: 30%;
+    font-weight: 900;
+    font-size: 1em;
+  }
+  #order_content {
+    position: relative;
+    left: 0%;
+    max-width: 320px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    /* font-size: ; */
+  }
+  .plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1.5em;
+    display: flex;
+    align-items: center;
+    max-width: 260px;
+    position: relative;
+    left: 6.5%;
+    height: 6em;
+    bottom: 10%;
+  }
+  .music_icon {
+    position: relative;
+    left: 5%;
+  }
+
+  .plan_year {
+    position: relative;
+    left: 12%;
+  }
+
+  .change {
+    position: relative;
+    left: 24%;
+  }
+  .annual_plan {
+    font-weight: 700;
+  }
+
+  .payment {
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 7%;
+    left: 8%;
+    max-width: 250px;
+    height: 3em;
+    border-radius: 0.7em;
+    position: relative;
+    padding-top: 4.5%;
+    padding-left: 20%;
+    box-shadow: 0px 5px 15px -5px hsl(223, 47%, 23%);
+  }
+}
